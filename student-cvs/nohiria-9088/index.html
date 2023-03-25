@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
 
@@ -91,6 +92,33 @@
                     </tr>
                 </table>
             </article>
+        </section>
+        
+        <section class="contact">
+            <h2>Contact</h2>
+            
+            <form id="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Enter your name" required>    
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" placeholder="E.g. example@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input id="subject" type="text" placeholder="What would you like to talk about?">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Please write your message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </div>
 

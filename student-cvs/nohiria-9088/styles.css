@@ -38,8 +38,8 @@ header>p{
 }
 
 ul{
-    border-left: 5px solid #5a15b5;
-    border-right: 5px solid #5a15b5;
+    border-left: 5px solid #691bd0;
+    border-right: 5px solid #691bd0;
     border-radius: 10px;
     padding: 0 4em;
 }
@@ -58,7 +58,7 @@ li{
 }
 
 h2{
-    color: #5a15b5;
+    color: #691bd0;
     text-align: center;
 }
 
@@ -79,17 +79,23 @@ h3, strong {
 }
 
 a {
-    color: #8D48E8;
+    color: #691bd0;
     text-decoration: none;
     margin-right: 0.2em;
     margin-left: 0.2em;
 }
 
 a:hover{
-    color: #5a15b5;
+    color: #7a2ddf;
     transition: all 0.3s ease;
     transform: scale(1.06);
     display: inline-block;
+}
+
+a:active{
+    color: #441189;
+    transition: all 0.3s ease;
+    transform: scale(1);
 }
 
 .commands{
@@ -115,6 +121,75 @@ th:first-child{
 
 tr:nth-child(odd){
     background: #e6e6e6;
+}
+
+.contact{
+    margin: 2em 0 3em;
+}
+
+form{
+    background-color: #e6e6e6;
+    margin: 0 auto;
+    padding: 1em 3em;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin: 1.4em 0;
+}
+
+label{
+    color:#691bd0;
+    font-weight: 600;
+}
+
+textarea{
+    resize: none;
+}
+
+input, textarea{
+    margin-top: 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.3em 0.5em;
+    font-size: 0.8em;
+}
+
+input:focus, textarea:focus{
+    outline: 1px solid #691bd0;
+}
+
+input, label, textarea{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+button{
+    background-color: #691bd0;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+button:hover{
+    background-color: #7a2ddf;
+    transition: all 0.3s ease;
+    transform: scale(1.06);
+}
+
+button:active{
+    background-color: #441189;
+    transition: all 0.3s ease;
+    transform: scale(1);
 }
 
 footer{
